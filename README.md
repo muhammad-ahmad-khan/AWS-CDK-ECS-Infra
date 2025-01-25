@@ -8,5 +8,5 @@ This repository contains AWS CDK infrastructure code for deploying a complete EC
 
 ### Documentation
 
-- [README for deploying VPC](https://github.com/muhammad-ahmad-khan/AWS-CDK-ECS-Infra/blob/main/vpc/README) - A detailed guide on setting up the VPC infrastructure.
-- [README for deploying ECS Fargate](https://github.com/muhammad-ahmad-khan/AWS-CDK-ECS-Infra/blob/main/ecs-fargate/README) - Instructions on how to configure and deploy your ECS services on AWS Fargate.
+- [README for deploying VPC](https://github.com/muhammad-ahmad-khan/AWS-CDK-ECS-Infra/blob/main/vpc/README.md) - A detailed guide on setting up the VPC infrastructure.
+- [README for deploying ECS Fargate](https://github.com/muhammad-ahmad-khan/AWS-CDK-ECS-Infra/blob/main/ecs-fargate/README.md) - Instructions on how to configure and deploy your ECS services on AWS Fargate.
