@@ -1,0 +1,6 @@
+### CDK-specific ignores ###
+cdk.context.json
+package-lock.json
+yarn.lock
+.cdk.staging
+cdk.out
