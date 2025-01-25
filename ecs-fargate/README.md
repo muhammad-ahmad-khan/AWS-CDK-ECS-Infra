@@ -68,7 +68,6 @@ cdk bootstrap --profile demo-account
 ### Step 3: Synthesize the Stack
 Synthesize the CloudFormation template to verify the stack:
 ```bash
-# cdk synth --profile demo-account
 
 cdk synth --context vpcId=vpc-0123456789abcdefgh --context ecrRepositoryName=demo-service --context acmCertificateArn=arn:aws:acm:us-east-1:012345678910:certificate/1140c09e-e36c-418e-840b-38fcfaf1c9ff --context demoServiceSecretArn=arn:aws:secretsmanager:us-east-1:012345678910:secret:prod/demo-service-ab12YZ --profile demo-account
 ```
@@ -76,7 +75,6 @@ cdk synth --context vpcId=vpc-0123456789abcdefgh --context ecrRepositoryName=dem
 ### Step 4: Deploy the Stack
 Deploy the CDK stack to AWS:
 ```bash
-# cdk deploy --profile demo-account
 
 cdk deploy --context vpcId=vpc-0123456789abcdefgh --context ecrRepositoryName=demo-service --context acmCertificateArn=arn:aws:acm:us-east-1:012345678910:certificate/1140c09e-e36c-418e-840b-38fcfaf1c9ff --context demoServiceSecretArn=arn:aws:secretsmanager:us-east-1:012345678910:secret:prod/demo-service-ab12YZ --profile demo-account
 
@@ -100,7 +98,7 @@ aws ecs execute-command \
 
 To remove all resources created by this stack:
 ```bash
-# cdk destroy --profile demo-account
+cdk destroy --profile demo-account
 ```
 
 ## Notes
